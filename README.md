@@ -7,7 +7,8 @@
 
 <h2 align="center">It was based on Gemini</h2>
 
-![image](https://github.com/user-attachments/assets/ce26f822-49a6-4f80-bd38-5b1a55aab6cc)
+![image](https://github.com/user-attachments/assets/ef394c98-7319-4ea4-878c-6c3004728371)
+
 
 ## ✨**What is Zemini?**
 Zemini is a comprehensive theme pack for Zen Browser that fuses two signature styles into one cohesive UI overhaul:
