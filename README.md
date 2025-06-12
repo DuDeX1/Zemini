@@ -90,5 +90,11 @@ To let the background bleed through your tabs (for that true glass effect):
 
 Enjoy your freshly “zen-ified” browser! If you’d like further tweaks—whether lighter, darker, or more playful—just dive into the CSS or ask ChatGPT for custom snippets. 😊
 
+# 🙌 Credits
 
+Here are some awesome projects that inspired or contributed to this project:
 
+    🔗 [Lacuna by Tanay-Kar](https://github.com/Tanay-Kar/Lacuna)
+    🌐 [Natsumi Browser by greeeen-dev](https://github.com/greeeen-dev/natsumi-browser)
+    🧠 [ZenZero by sameerasw](https://github.com/sameerasw/ZenZero)
+    🧩 [Advanced Tab Groups by TFFC-Anoms12](https://github.com/TFFC-Anoms12/Advanced-Tab-Groups)
