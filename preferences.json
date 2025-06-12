@@ -212,12 +212,12 @@
     },
     {
         "type": "checkbox",
-        "property": "zz-glance-tweaks",
+        "property": "zz-glance-tweaks-disabled",
         "label": "Disables glance tweaks."
     },
     {
         "type": "checkbox",
-        "property": "zz-tab-groups-styling",
+        "property": "zz-tab-groups-styling-disabled",
         "label": "Disables tab groups styling."
     },
     {
@@ -227,7 +227,7 @@
     },
     {
         "type": "checkbox",
-        "property": "zz-containers-tweaks",
+        "property": "zz-containers-tweaks-disabled",
         "label": "Disables containers-tweaks."
     },
     {
