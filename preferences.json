@@ -232,7 +232,7 @@
     }
     {
         "type": "text",
-        "label": "**Other Settings**",
+        "label": "**Other Settings (For Nebula)**",
         "margin": "10px 0 15px 0",
         "size": "20px"
     },
