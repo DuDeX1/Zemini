@@ -239,5 +239,35 @@
         "type": "checkbox",
         "property": "zen-feature-misc-disabled",
         "label": "Disables pip tweaks."
+    },
+    {
+        "type": "checkbox",
+        "property": "zz-Hide-workspace-indicator-disabled",
+        "label": "Disables Hide workspace indicator."
+    },
+    {
+        "type": "checkbox",
+        "property": "zz-URL-bar-cleanup-hide-unnecessary-elements-disabled",
+        "label": "Disables hiding bookmark button, copy link button, and more."
+    },
+    {
+        "type": "checkbox",
+        "property": "zz-glance-tweaks",
+        "label": "Disables glance tweaks."
+    },
+    {
+        "type": "checkbox",
+        "property": "zz-tab-groups-styling",
+        "label": "Disables tab groups styling."
+    },
+    {
+        "type": "checkbox",
+        "property": "zz-Custom-extension-icons-disabled",
+        "label": "Disables Custom extension icons."
+    },
+    {
+        "type": "checkbox",
+        "property": "zz-containers-tweaks",
+        "label": "Disables containers-tweaks."
     }
 ]
