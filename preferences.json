@@ -287,9 +287,6 @@
         "property": "tab.groups.borders",
         "type": "checkbox",
         "label": "Enables a border for tab groups.",
-        "conditions": [
-          {"if": {"property": "tab.groups.background", "value": true}}
-        ]
     },
     {
         "property": "tab.groups.disable-animations",
