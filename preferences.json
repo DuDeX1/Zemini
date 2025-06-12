@@ -166,6 +166,28 @@
         "size": "20px"
     },
     {
+        "type": "dropdown",
+        "value": "number",
+        "property": "advanced-tab-groups",
+        "label": "Tab Groups Styles.",
+        "default": 1,
+        "placeholder": false,
+        "options": [
+            {
+                "label": "Arcline",
+                "value": 0
+            },
+            {
+                "label": "Advanced Tab Groups",
+                "value": 1
+            },
+            {
+                "label": "Sameera Atyle",
+                "value": 2
+            }
+        ] 
+    },
+    {
         "type": "checkbox",
         "property": "zen-feature-tab-glow-disabled",
         "label": "Disables tab icon glow."
