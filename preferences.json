@@ -265,7 +265,7 @@
         "type": "checkbox",
         "property": "nebula-remove-workspace-indicator",
         "label": "Removes the workspace indicator."
-    }
+    },
     {
         "type": "text",
         "label": "**Advanced Tab Groups**",
