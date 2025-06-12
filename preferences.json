@@ -156,7 +156,44 @@
             {
                 "label": "Minimal, smooth animations.",
                 "value": 2
-            },
+            }
+        ]
+    {
+        "type": "text",
+        "label": "**Other Settings (For Nebula)**",
+        "margin": "10px 0 15px 0",
+        "size": "20px"
+    },
+    {
+        "type": "checkbox",
+        "property": "nebula-tabs-no-shadow",
+        "label": "Removes tab shadows."
+    },
+    {
+        "type": "checkbox",
+        "property": "nebula-nogaps-mod",
+        "label": "Enables NoGaps mod (ONLY for single toolbar mode)."
+    },
+    {
+        "type": "checkbox",
+        "property": "nebula-nogaps-compact-mod",
+        "label": "Enables Marginless Compact mod."
+    },
+    {
+        "type": "checkbox",
+        "property": "nebula-compact-mode-no-sidebar-bg",
+        "label": "Disables background for compact sidebar when sites are transparent."
+    },
+    {
+        "type": "checkbox",
+        "property": "nebula-pinned-tabs-bg",
+        "label": "Removes the background on Pinned tabs."
+    },
+    {
+        "type": "checkbox",
+        "property": "nebula-remove-workspace-indicator",
+        "label": "Removes the workspace indicator."
+    }
     {
         "type": "text",
         "label": "**Zemini Settings**",
@@ -227,41 +264,5 @@
         "type": "checkbox",
         "property": "zz-containers-tweaks",
         "label": "Disables containers-tweaks."
-    },
-    {
-        "type": "text",
-        "label": "**Other Settings (For Nebula)**",
-        "margin": "10px 0 15px 0",
-        "size": "20px"
-    },
-    {
-        "type": "checkbox",
-        "property": "nebula-tabs-no-shadow",
-        "label": "Removes tab shadows."
-    },
-    {
-        "type": "checkbox",
-        "property": "nebula-nogaps-mod",
-        "label": "Enables NoGaps mod (ONLY for single toolbar mode)."
-    },
-    {
-        "type": "checkbox",
-        "property": "nebula-nogaps-compact-mod",
-        "label": "Enables Marginless Compact mod."
-    },
-    {
-        "type": "checkbox",
-        "property": "nebula-compact-mode-no-sidebar-bg",
-        "label": "Disables background for compact sidebar when sites are transparent."
-    },
-    {
-        "type": "checkbox",
-        "property": "nebula-pinned-tabs-bg",
-        "label": "Removes the background on Pinned tabs."
-    },
-    {
-        "type": "checkbox",
-        "property": "nebula-remove-workspace-indicator",
-        "label": "Removes the workspace indicator."
     }
 ]
