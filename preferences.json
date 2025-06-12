@@ -229,7 +229,7 @@
         "type": "checkbox",
         "property": "zz-containers-tweaks",
         "label": "Disables containers-tweaks."
-    }
+    },
     {
         "type": "text",
         "label": "**Other Settings (For Nebula)**",
