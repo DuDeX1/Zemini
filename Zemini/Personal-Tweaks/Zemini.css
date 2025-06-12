@@ -5,7 +5,9 @@
 @import "modules/Essentials.css";
 @import "modules/misc.css";
 @import "modules/Glow-Effect-Icon.css";
-@import "modules/TabGroups.css";
+@import "modules/Tab-group-styles/TabGroups.css";
+@import "modules/Tab-group-styles/Arcline.css";
+@import "modules/Tab-group-styles/ZenZero.css";
 
 /* Some Neo Zen Features */
 
