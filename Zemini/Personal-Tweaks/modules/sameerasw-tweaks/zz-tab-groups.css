@@ -1,4 +1,4 @@
-@media not (-moz-pref("zz-tab-groups-styling")) {
+@media not (-moz-pref("zz-tab-groups-styling-disabled")) { 
 
 /*******************************************************************************
  * TAB GROUPS STYLING
@@ -22,7 +22,7 @@ tab-group .tab-group-label {
   color: color-mix(in srgb, var(--tab-group-color) 70%, #fff) !important;
   scale: 1 !important;
   transition: all 0.2s ease-in-out !important;
-}
+ }
 tab-group .tab-group-label:hover {
   padding-left: 15px !important;
   background: color-mix(
@@ -31,29 +31,29 @@ tab-group .tab-group-label:hover {
     transparent
   ) !important;
   color: color-mix(in srgb, var(--tab-group-color) 30%, #fff) !important;
-}
+ }
 tab-group .tab-group-label:active {
   scale: 0.9 !important;
-}
+ }
 tab-group:not([collapsed]) .tab-group-label {
   border: 1.5px dashed
     color-mix(in srgb, var(--tab-group-color) 50%, transparent) !important;
-}
+ }
 
 /* Label container margins */
 .tab-group-label-container {
   margin-top: 3px !important;
   margin-left: 0 !important;
   margin-bottom: 0 !important;
-}
+ }
 tab-group[collapsed] .tab-group-label-container {
   margin-bottom: 3px !important;
-}
+ }
 
 /* Hide label container's after pseudo */
 .tab-group-label-container::after {
   display: none !important;
-}
+ }
 
 /* Tab stack styles */
 .tab-stack,
@@ -66,7 +66,7 @@ tab-group .tab-stack {
     transparent
   ) !important;
   margin-block: 2px !important;
-}
+ }
 .tab-stack:hover,
 tab-group .tab-stack:hover {
   background: color-mix(
@@ -74,12 +74,12 @@ tab-group .tab-stack:hover {
     var(--tab-group-color) 50%,
     transparent
   ) !important;
-}
+ }
 
 /* Hide tab indicator */
 tab-group .tabbrowser-tab::before {
   display: none !important;
-}
+ }
 
 /* animations */
 
@@ -91,7 +91,7 @@ tab-group .tabbrowser-tab::before {
   display: inline-block !important;
   vertical-align: middle !important;
   transition: transform 0.25s ease-in-out !important;
-}
+ }
 
 tab-group > .tab-group-label-container > label.tab-group-label[aria-expanded="true"]::before {
   content: '📂' !important;

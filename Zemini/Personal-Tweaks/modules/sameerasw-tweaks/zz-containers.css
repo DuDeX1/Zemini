@@ -1,4 +1,4 @@
-@media not (-moz-pref("zz-containers-tweaks")) {
+@media not (-moz-pref("zz-containers-tweaks-disabled")) {
 
 /* ======== containers ======= */
 tab {
@@ -28,16 +28,16 @@ tab {
     filter: blur(10px) !important;
     border: 12px var(--identity-tab-color) solid !important;
   }
-}
+ }
 
 [uidensity="compact"] tab .tab-background .tab-context-line {
   margin: auto 5px !important;
-}
+ }
 
 tab[zen-essential="true"] .tab-background .tab-context-line {
   margin: auto !important;
   z-index: 1000 !important;
-}
+ }
 
 tab[discarded=""]:hover,
 tab[pending="true"]:hover {

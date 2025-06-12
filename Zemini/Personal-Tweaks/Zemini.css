@@ -20,7 +20,6 @@
 @import "modules/sameerasw-tweaks/zz-custom-addon-icons.css";
 @import "modules/sameerasw-tweaks/zz-glance.css";
 @import "modules/sameerasw-tweaks/zz-general-edited.css";
-@import "modules/sameerasw-tweaks/zz-compact-sidebar.css";
 
 ---------------------------------------------------------------------------
 
@@ -65,20 +64,19 @@
 
 /* 10. ZZ glance tweaks */
 
-"zz-glance-tweaks"
+"zz-glance-tweaks-disabled"
 
 /* 11. ZZ tab groups styling */
 
-"zz-tab-groups-styling"
+"zz-tab-groups-styling-disabled"
 
 /* 12. ZZ Custom extension icons */
 
 "zz-Custom-extension-icons-disabled"
 
-
 /* 13. ZZ containers-tweaks */
 
-"zz-containers-tweaks"
+"zz-containers-tweaks-disabled"
 
 
 /* --- END FEATURE TOGGLES --- */
