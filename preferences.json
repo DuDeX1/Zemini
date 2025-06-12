@@ -156,8 +156,7 @@
             {
                 "label": "Minimal, smooth animations.",
                 "value": 2
-            }
-        ]
+            },
     {
         "type": "text",
         "label": "**Zemini Settings**",
