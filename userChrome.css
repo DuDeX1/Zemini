@@ -1,4 +1,4 @@
-/*  Zemini v2.0.0  */
+/*  Zemini v2.1.5  */
 
 /* Nebula */
 @import "Zemini/Nebula/Nebula.css";
@@ -10,7 +10,7 @@
 .toolbarbutton-1:hover,
 .toolbarbutton-1:focus {
   animation: button-bounce 0.5s;
-  background: rgba(0,255,247,0.15) !important;
+  background: rgba(255,255,255,0.03) !important;
   border-radius: 15px !important;
 }
 
