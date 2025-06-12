@@ -1,4 +1,4 @@
-@media (-moz-pref("zz-tab-groups-styling")) {
+@media not (-moz-pref("zz-tab-groups-styling")) {
 
 /*******************************************************************************
  * TAB GROUPS STYLING

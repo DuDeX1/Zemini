@@ -2,6 +2,7 @@
 /*******************************************************************************
  * GENERAL UI ELEMENTS STYLING
  ******************************************************************************/
+@media not (-moz-pref("zz-Hide-workspace-indicator-disabled")) {
 
 /* Hide workspace indicator */
 #zen-current-workspace-indicator {
@@ -15,6 +16,8 @@
 .vertical-pinned-tabs-container-separator {
   width: 30% !important;
 }
+
+@media not (-moz-pref("zz-URL-bar-cleanup-hide-unnecessary-elements-disabled")) {
 
 /* URL bar cleanup - hide unnecessary elements */
 #page-action-buttons,
@@ -184,6 +187,8 @@ html,
   opacity: 0 !important;
   transition: all 0.3s ease-in-out !important;
 } */
+
+@media not (-moz-pref("zen-feature-Workspace-indicator-styling-and-animation-disabled")) {
 
 /* Workspace indicator styling and animation */
 .unified-extensions-item {

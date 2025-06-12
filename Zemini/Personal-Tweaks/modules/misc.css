@@ -9,6 +9,8 @@
   }
 }
 
+@media not (-moz-pref("zen-feature-misc-disabled")) {
+
 /* Hide attention icon (green dot) under tab icons */
 #navigator-toolbox {
   .tabbrowser-tab:is([image], [pinned])
@@ -25,6 +27,8 @@
     background-image: none !important;
   }
 }
+
+@media not (-moz-pref("zen-feature-misc-disabled")) {
 
 /* Floating Statusbar */
 

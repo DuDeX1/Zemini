@@ -1,4 +1,4 @@
-@media (-moz-pref("zz-containers-tweaks")) {
+@media not (-moz-pref("zz-containers-tweaks")) {
 
 /* ======== containers ======= */
 tab {

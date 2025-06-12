@@ -1,4 +1,4 @@
-@media (-moz-pref("zz-glance-tweaks")) {
+@media not (-moz-pref("zz-glance-tweaks")) {
 
 /* Transparent glance styling */
 .zen-glance-background > vbox {

@@ -51,9 +51,34 @@
 
 "natsumi.findbar.disabled"
 
-/* 7. Natsumi Findbar */
+/* 7. misc */
 
 "zen-feature-misc-disabled"
+
+/* 8. ZZ Hide workspace indicator */
+
+"zz-Hide-workspace-indicator-disabled"
+
+/* 9. ZZ URL bar cleanup hide unnecessary elements */
+
+"zz-URL-bar-cleanup-hide-unnecessary-elements-disabled"
+
+/* 10. ZZ glance tweaks */
+
+"zz-glance-tweaks"
+
+/* 11. ZZ tab groups styling */
+
+"zz-tab-groups-styling"
+
+/* 12. ZZ Custom extension icons */
+
+"zz-Custom-extension-icons-disabled"
+
+
+/* 13. ZZ containers-tweaks */
+
+"zz-containers-tweaks"
 
 
 /* --- END FEATURE TOGGLES --- */
