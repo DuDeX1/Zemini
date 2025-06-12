@@ -93,8 +93,7 @@ Enjoy your freshly “zen-ified” browser! If you’d like further tweaks—whe
 # 🙌 Credits
 
 Here are some awesome projects that inspired or contributed to this project:
-
-    🔗 [Lacuna by Tanay-Kar](https://github.com/Tanay-Kar/Lacuna)
-    🌐 [Natsumi Browser by greeeen-dev](https://github.com/greeeen-dev/natsumi-browser)
-    🧠 [ZenZero by sameerasw](https://github.com/sameerasw/ZenZero)
-    🧩 [Advanced Tab Groups by TFFC-Anoms12](https://github.com/TFFC-Anoms12/Advanced-Tab-Groups)
+*    🔗 [Lacuna by Tanay-Kar](https://github.com/Tanay-Kar/Lacuna)
+*    🌐 [Natsumi Browser by greeeen-dev](https://github.com/greeeen-dev/natsumi-browser)
+*    🧠 [ZenZero by sameerasw](https://github.com/sameerasw/ZenZero)
+*    🧩 [Advanced Tab Groups by TFFC-Anoms12](https://github.com/TFFC-Anoms12/Advanced-Tab-Groups)
