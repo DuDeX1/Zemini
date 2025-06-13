@@ -9,6 +9,7 @@
     "chrome": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userChrome.css",
     "content": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userContent.css"
   },
+  "preferences": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/preferences.json",
   "readme": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/README.md",
   "image": "https://github.com/user-attachments/assets/1223ef6a-4ff9-4379-9aa1-68434f86264d",
   "fork": ["zen"]
