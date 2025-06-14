@@ -80,6 +80,122 @@ To let the background bleed through your tabs (for that true glass effect):
 
 ---
 
+<h3 align="left">Install Mica For Everyone (ONLY FOR WINDOWS 11 USERS)</h3>
+
+###
+
+<p align="left">
+• To get real backdrop filter transparency (note: that this method provides a better blur effect than the transparent zen extension by sameerasw), go to "https://github.com/MicaForEveryone/MicaForEveryone" and install the app.<br><br>
+• Click the "+ Add new Rule" at the bottom left and "Add process rule" for "zen".<br><br>
+• NOTE: If you have "Show Accent color on title bars and window borders" enabled in Windows 11 settings, please disable it for transparency to work.
+</p>
+<img width="900" src="https://github.com/user-attachments/assets/e867a04e-a8ba-4795-bada-e22ca92fc657" />
+<br><br>
+<p align="left">
+• Also, please make sure your Zen theme color contrast is set to 0 for it to look transparent.
+</p>
+<img width="250" src="https://github.com/user-attachments/assets/aff8398c-9457-4842-bb44-32932cb99e23" />
+
+###
+
+<div align="left">
+  <img height="400" src="https://github.com/user-attachments/assets/34f6965c-1bdc-4ea1-8605-efde3b898d23"  />
+</div>
+
+###
+
+<p align="left">• Change the Backdrop type to Acrylic and enable blur behind in advanced options.<br><br>• Restart Zen and see how it looks.</p>
+
+###
+<h3 align="left">Install kwin-effects-forceblur (ONLY FOR KDE LINUX)</h3>
+
+###
+<p align="left">• To get real backdrop filter transparency, go to "https://github.com/taj-ny/kwin-effects-forceblur" and install the app.<br><br>• It's required to install 'kwin-effects-forceblur' from AUR then go to System Settings -> Windows -> Desktop Effecs, disable Blur and enable Better Blur and in Better Blur settings go to 'Force blur' tab and add 'zen' to list of classes of windows.<br><br>• NOTE: If Zen was installed from AUR as "zen-browser-bin", then in KDE put the name "zen-browser" for blur Here is the blur configuration: </p>
+
+###
+
+<div align="center">
+  <img height="300" src="https://github.com/user-attachments/assets/8a19fcdd-acf9-4540-9833-ae0be3cce363"  />
+</div>
+
+
+---
+<h3 align="left">Add the Firefox extension Bonjourrr</h3>
+
+###
+
+<p align="left">• Go to "https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/" and install this extension.<br><br>• The new tab must be replaced by this now. On the bottom right, you will see a settings button for new tab. Change the settings to these:</p>
+
+| ![image](https://github.com/user-attachments/assets/e7e27035-6e2b-4006-abf7-091a103536f9) | ![image](https://github.com/user-attachments/assets/d8fb107f-1247-4a3e-8026-619311e2dee5) | ![image](https://github.com/user-attachments/assets/724abcd8-a9f0-4d76-a054-3d76e3c7db60) |
+|-|-|-|
+
+###
+
+<p align="left">• In the section where it says "Add custom CSS", add this code to change font of newtab and make it transparent:</p>
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, span, div {
+    font-family: 'Comfortaa', sans-serif !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.015em;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body, h1, h2, h3, h4, h5, h6, p, span, div {
+        color: #222222;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body, h1, h2, h3, h4, h5, h6, p, span, div {
+        color: #e0e0e0;
+        text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+    }
+}
+
+h1 {
+    font-weight: 400 !important;
+    letter-spacing: 0.025em;
+}
+
+p {
+    font-weight: 300 !important;
+    line-height: 1.6;
+    letter-spacing: 0.015em;
+}
+#background {
+    background-color: transparent !important;
+}
+#background {background-image: none !important; background-color: transparent !important;}
+   .tabbing {background-color: transparent !important;} 
+    body {background-color: transparent !important;}
+#background-wrapper {
+    opacity: 0 !important;
+}
+```
+###
+
+---
+
+
+<h3 align="left">Using pinned extensions</h3>
+
+###
+
+<p align="left">• First pin an extension normally, it should be somewhere in the top bar like default zen<br><br>• Now, right click on the sidebar and go to customize toolbar mode, from there drag the extension from the top bar to above essentials (or you can say below the URLbar) it would look a bit weird but press save changes and it should look perfect<br><br>• In my personal opinion, place the bonjourr extension above essentials so you can easily open a new tab by clicking it</p>
+
+
+---
+
 ## Add the extension [Zen Internet by Sameerasw](https://addons.mozilla.org/en-US/firefox/addon/zen-internet/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) (Optional)
 
 ---
