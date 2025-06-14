@@ -45,7 +45,7 @@ This theme customizes virtually every corner of Zen—tabs, toolbar, sidebar, co
    * Open your existing `userChrome.css` and add:
 
      ```css
-     /*  Zemini v2.0.0  */
+     /*  Zemini v2.2.0  */
 
      /* Nebula */
      @import "Zemini/Nebula/Nebula.css";
@@ -56,7 +56,7 @@ This theme customizes virtually every corner of Zen—tabs, toolbar, sidebar, co
    * Open (or create) your `userContent.css` and add:
 
      ```css
-     /*  Zemini v2.0.0  */
+     /*  Zemini v2.2.0  */
 
      /* Nebula */
      @import "Zemini/Nebula/Nebula-content.css";
