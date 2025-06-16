@@ -310,10 +310,5 @@
         "type": "checkbox",
         "property": "zz-containers-tweaks-disabled",
         "label": "Disables containers-tweaks."
-    },
-    {
-        "type": "checkbox",
-        "property": "zz-Hide-workspace-indicator-disabled",
-        "label": "Disables Hiding workspace indicator."
     }
 ]
