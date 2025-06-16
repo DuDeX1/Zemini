@@ -178,34 +178,6 @@ html,
   transition: all 0.3s ease-in-out !important;
 } */
 
-@media not (-moz-pref("zen-feature-Workspace-indicator-styling-and-animation-disabled")) {
-
-/* Workspace indicator styling and animation */
-.unified-extensions-item {
-  transition: opacity 0.3s ease-in-out !important;
- }
-
-.zen-current-workspace-indicator {
-  order: 100000 !important;
-  opacity: 1;
-  bottom: 0px !important;
-  min-height: initial !important;
-  transition: all 0.3s ease-in-out !important;
- }
-
-body:not(
-    :has(zen-workspace-icons:hover, .zen-current-workspace-indicator:hover)
-  ) {
-  .zen-current-workspace-indicator {
-    opacity: 0 !important;
-    bottom: -50px !important;
-    height: 0 !important;
-    min-height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-}
-
 /* Show controls on hover */
 #navigator-toolbox:hover {
   #zen-sidebar-bottom-buttons,
