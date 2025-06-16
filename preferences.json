@@ -283,11 +283,6 @@
     },
     {
         "type": "checkbox",
-        "property": "zz-Hide-workspace-indicator-disabled",
-        "label": "Disables Hide workspace indicator."
-    },
-    {
-        "type": "checkbox",
         "property": "zz-URL-bar-cleanup-hide-unnecessary-elements-disabled",
         "label": "Disables hiding bookmark button, copy link button, and more."
     },
