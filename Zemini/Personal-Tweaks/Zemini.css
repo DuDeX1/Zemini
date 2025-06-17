@@ -1,0 +1,87 @@
+/*  Zemini v2.4.0 */
+
+@import "modules/Font/Font.css";
+@import "modules/Font/Big-Text.css";
+@import "modules/Font/Arc-Font.css";
+@import "modules/Essentials.css";
+@import "modules/misc.css";
+@import "modules/Glow-Effect-Icon.css";
+@import "modules/Tab-group-styles/TabGroups.css";
+@import "modules/Tab-group-styles/Arcline.css";
+@import "modules/Tab-group-styles/ZenZero.css";
+@import "modules/Context-Menu.css";
+@import "modules/Sidebar.css";
+
+/* Some Neo Zen Features */
+
+@import "modules/URLBar-tweaks-By-e.e/URL-Bar.css";
+
+/* sameerasw-tweaks (ZenZero) */
+
+@import "modules/sameerasw-tweaks/zz-tab-groups.css";
+@import "modules/sameerasw-tweaks/zz-tab-switcher.css";
+@import "modules/sameerasw-tweaks/zz-player.css";
+@import "modules/sameerasw-tweaks/zz-containers.css";
+@import "modules/sameerasw-tweaks/zz-custom-addon-icons.css";
+@import "modules/sameerasw-tweaks/zz-glance.css";
+@import "modules/sameerasw-tweaks/zz-general-edited.css";
+
+---------------------------------------------------------------------------
+
+/* --- FEATURE TOGGLES --- */
+
+
+/* 1. Enable/disable tab icon glow */
+
+"zen-feature-tab-glow-disabled"
+
+/* 2. Essentials Tweaks (colored background) */
+
+"zen-feature-essentials-tweaks-disabled"
+
+/* 3. Custom Font (SF-pro) */
+
+"zen-feature-custom-font-disabled"
+
+/* 4. Bigger Text For Normal Tabs */
+
+"zen-feature-bigger-text-normal-tabs-disabled"
+
+/* 5. Neo Zen Urlbar Tweaks */
+
+"neo-style-urlbar-disabled"
+
+/* 6. Natsumi Findbar */
+
+"natsumi.findbar.disabled"
+
+/* 7. misc */
+
+"zen-feature-misc-disabled"
+
+/* 8. ZZ Hide workspace indicator */
+
+"zz-Hide-workspace-indicator-disabled"
+
+/* 9. ZZ URL bar cleanup hide unnecessary elements */
+
+"zz-URL-bar-cleanup-hide-unnecessary-elements-disabled"
+
+/* 10. ZZ glance tweaks */
+
+"zz-glance-tweaks-disabled"
+
+/* 11. ZZ tab groups styling */
+
+"zz-tab-groups-styling-disabled"
+
+/* 12. ZZ Custom extension icons */
+
+"zz-Custom-extension-icons-disabled"
+
+/* 13. ZZ containers-tweaks */
+
+"zz-containers-tweaks-disabled"
+
+
+/* --- END FEATURE TOGGLES --- */
