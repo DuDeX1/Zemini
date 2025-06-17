@@ -1,9 +1,0 @@
-@media not (-moz-pref("zen-feature-bigger-text-normal-tabs-disabled")) {
-
-/* ========== Bigger Text for Normal Tabs ========== */
-/* Increase font size of the tab title on regular tabs */
-#tabbrowser-tabs .tabbrowser-tab:not([pinned]):not([essential]) .tab-label {
-  font-size: 15px !important;       /* adjust this value as you like */
-  line-height: 1.2 !important;       /* keeps text vertically centered */
-  padding-block: 2px !important;     /* optional: tweak vertical padding */
-}
