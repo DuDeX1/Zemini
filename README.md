@@ -7,7 +7,7 @@
 
 <h2 align="center">It was based on Gemini</h2>
 
-![image](https://github.com/user-attachments/assets/5148ba41-14fa-4ad4-b10c-90dfb3b905bb)
+![image](https://github.com/user-attachments/assets/0e597435-e617-4b8e-ae56-e6fd45df9c6b)
 
 
 ## ✨**What is Zemini?**
