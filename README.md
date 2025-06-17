@@ -20,6 +20,29 @@ Zemini is a comprehensive theme pack for Zen Browser that fuses two signature st
 This theme customizes virtually every corner of Zen—tabs, toolbar, sidebar, context menus, pinned extensions, group tabs, the mini-player, URL bar, workspace buttons, and more—while still letting you tweak or disable any part if you prefer a lighter touch. ❤️
 
 ---
+<h2 align="left">☄️ Installation:</h2>
+
+###
+
+## 💫 Sine Installation Guide (Recommended)
+
+Follow these steps to install and apply the **Nebula** theme to Zen Browser:
+
+1. 📝 **Install Sine**
+   - Go to [Sine's Github](https://github.com/CosmoCreeper/Sine/tree/main) and follow its installation process.
+   - This includes downloading and setting up FX-Autoconfig using the auto installer or manual installation.
+   - Then setting up Sine.
+   
+2. 💎 **Installing Zemini through Sine's Marketplace**
+   - Go to settings and click **Sine**, from there a Marketplace will load where Zemini will be shown as a mod to install.
+   - Click the install button and Nebula should be installed as a mod.
+   
+   ![image](https://github.com/user-attachments/assets/a6a88c52-011f-46aa-b4be-1f8fd147ac8c)
+
+3. ⚙️ **Enable Transparent Tabs**
+   - Go to `about:config` in Zen.
+   - Search for `browser.tabs.allow_transparent_browser`.
+   - If visible, set it to `true`.
 
 ## 🚀 **Installation Guide** (Windows, macOS, and Manual Linux)
 
