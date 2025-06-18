@@ -68,7 +68,7 @@ Follow these steps to install and apply the **Nebula** theme to Zen Browser:
    * Open your existing `userChrome.css` and add:
 
      ```css
-     /*  Zemini v2.2.0  */
+     /*  Zemini v2.4.0  */
 
      /* Nebula */
      @import "Zemini/Nebula/Nebula.css";
@@ -79,7 +79,7 @@ Follow these steps to install and apply the **Nebula** theme to Zen Browser:
    * Open (or create) your `userContent.css` and add:
 
      ```css
-     /*  Zemini v2.2.0  */
+     /*  Zemini v2.4.0  */
 
      /* Nebula */
      @import "Zemini/Nebula/Nebula-content.css";
