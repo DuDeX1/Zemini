@@ -26,7 +26,7 @@ This theme customizes virtually every corner of Zen—tabs, toolbar, sidebar, co
 
 ## 💫 Sine Installation Guide (Recommended)
 
-Follow these steps to install and apply the **Nebula** theme to Zen Browser:
+Follow these steps to install and apply the **Zemini** theme to Zen Browser:
 
 1. 📝 **Install Sine**
    - Go to [Sine's Github](https://github.com/CosmoCreeper/Sine/tree/main) and follow its installation process.
