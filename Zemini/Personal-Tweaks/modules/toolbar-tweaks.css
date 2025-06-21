@@ -1,0 +1,26 @@
+/* --- Toolbar Button Bounce on Hover/Focus --- */
+.toolbarbutton-1:hover,
+.toolbarbutton-1:focus {
+  animation: button-bounce 0.5s;
+  background: rgba(0,255,247,0.15) !important;
+  border-radius: 15px !important;
+}
+
+@keyframes button-bounce {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.15) rotate(-6deg); }
+  60%  { transform: scale(0.95) rotate(6deg); }
+  100% { transform: scale(1); }
+}
+
+/* --- Spinning Reload Button on Hover --- */
+#reload-button:hover {
+  animation: spinAndColor 0.35s linear;
+}
+
+@keyframes spinAndColor {
+  0% { transform: rotate(0); filter: brightness(1); }
+  50% { transform: rotate(180deg); filter: brightness(1.5); }
+  100% { transform: rotate(360deg); filter: brightness(1); }
+}
+

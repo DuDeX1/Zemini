@@ -1,0 +1,103 @@
+/*========================= Glance Effects ===========================*/
+
+@-moz-document url-prefix("chrome:") {
+  
+  #zen-glance-sidebar-container toolbarbutton {
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+  }
+  
+  /* Glow effect background */
+  
+  #zen-glance-sidebar-container toolbarbutton::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border-radius: 2px;
+    background: linear-gradient(
+      45deg,
+      color-mix(in srgb, var(--zen-primary-color, #00c8ff) 5%, black),
+      color-mix(in srgb, var(--zen-primary-color, #00c8ff) 30%, black),
+      color-mix(in srgb, var(--zen-primary-color, #00c8ff) 75%, black),
+      color-mix(in srgb, var(--zen-primary-color, #00c8ff) 100%, black),
+      color-mix(in srgb, var(--zen-primary-color, #00c8ff) 50%, black),
+      color-mix(in srgb, var(--zen-primary-color, #00c8ff) 15%, black)
+    );
+    background-size: 200% 200%;
+    opacity: 0;
+    filter: blur(8px) brightness(1) contrast(120%);
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none;
+    z-index: -1;
+    animation: tab-hover-gradient 3.5s linear infinite;
+    animation-play-state: paused;
+  }
+  #zen-glance-sidebar-container toolbarbutton:hover::before {
+    opacity: 0.5;
+    animation-play-state: running;
+  }
+
+  /* New Glow Effect for icons */
+  #zen-glance-sidebar-container toolbarbutton .toolbarbutton-icon {
+    transition: filter 0.3s ease-in-out !important;
+  }
+  @media (prefers-color-scheme: dark) {
+    #zen-glance-sidebar-container toolbarbutton:hover .toolbarbutton-icon {
+      fill: #fff !important;
+      filter: drop-shadow(0 0 0.5px #ffffff) drop-shadow(0 0 0.5px #ffffff) !important;
+      animation: none !important;
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    #zen-glance-sidebar-container toolbarbutton:hover .toolbarbutton-icon {
+      fill: #000 !important;
+      filter: drop-shadow(0 0 1px #000) drop-shadow(0 0 1px #000) !important;
+      animation: none !important;
+    }
+  }
+
+  #zen-glance-sidebar-container {
+    position: absolute !important;
+    margin-top: 1% !important;
+    left: calc(90% + 60px) !important;
+    z-index: 9999 !important;
+  }
+  
+  #zen-glance-sidebar-container toolbarbutton {
+    background: light-dark(rgba(255,255,255,0.4), rgba(0,0,0,0.4)) !important;
+    backdrop-filter: blur(32px) saturate(140%) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.2) !important;
+    padding: 4px 8px !important;
+    border: rgba(180, 180, 180, 0.7) 0.2px solid;
+  }
+  #zen-glance-sidebar-close.toolbarbutton-1 .toolbarbutton-icon,
+  #zen-glance-sidebar-split.toolbarbutton-1 .toolbarbutton-icon,
+  #zen-glance-sidebar-open.toolbarbutton-1 .toolbarbutton-icon {
+    fill: light-dark(rgba(255,255,255,0.7), rgba(0,0,0,0.7)) !important;
+  }
+
+  .zen-glance-background > vbox {
+    mask-image: linear-gradient(
+      to right,
+      black 0%,
+      black 4%,
+      transparent 7%,
+      transparent 93.5%,
+      black 96%,
+      black 100%
+    );
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+  }
+
+  .zen-glance-overlay > vbox {
+    background-color: light-dark(#fff7, #0007) !important;
+    margin-top: 0.5% !important;
+    margin-bottom: 0.5% !important;
+    height: 98% !important;
+    border-radius: 0.7em !important;
+    border: 1px solid light-dark(rgba(0,0,0,0.15), #da8d5e) !important;
+  }
+}
