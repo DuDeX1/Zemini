@@ -35,7 +35,11 @@ Follow these steps to install and apply the **Zemini** theme to Zen Browser:
    
 2. 💎 **Installing Zemini through Sine's Marketplace**
    - Go to settings and click **Sine**, from there a Marketplace will load where Zemini will be shown as a mod to install.
-   - Click the install button and Nebula should be installed as a mod.
+   - Click the install button and Zemini should be installed as a mod.
+
+3. **Installing advanced tab groups through Sine's Marketplace**
+   - Go to settings and click **Sine**, from there a Marketplace will load where advanced tab groups v2 will be shown as a mod to install.
+   - Click the install button and advanced tab groups v2 should be installed as a mod.
    
    ![image](https://github.com/user-attachments/assets/a6a88c52-011f-46aa-b4be-1f8fd147ac8c)
 
