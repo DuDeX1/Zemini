@@ -4,7 +4,7 @@
   "author": "Mohammed55Z",
   "name": "Zemini",
   "description": "It was based on Gemini.",
-  "js": true,
+  "js": "true",
   "version": "2.5.0",
   "style": {
     "chrome": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userChrome.css",
