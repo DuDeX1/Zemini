@@ -8,10 +8,10 @@
   "style": {
     "chrome": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userChrome.css",
     "content": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userContent.css",
-    "js": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/advanced-tab-groups.uc.js"
   },
   "preferences": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/preferences.json",
   "readme": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/README.md",
   "image": "https://github.com/user-attachments/assets/0e597435-e617-4b8e-ae56-e6fd45df9c6b",
+  "js": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/advanced-tab-groups.uc.js"
   "fork": ["zen"]
 }
