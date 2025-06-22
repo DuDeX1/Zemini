@@ -7,7 +7,7 @@
   "version": "2.5.0",
   "style": {
     "chrome": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userChrome.css",
-    "content": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userContent.css",
+    "content": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/userContent.css"
   },
   "preferences": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/preferences.json",
   "readme": "https://raw.githubusercontent.com/Mohammed55Z/Zemini/refs/heads/main/README.md",
